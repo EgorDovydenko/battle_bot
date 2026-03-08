@@ -1,10 +1,5 @@
 import { getAvailableEvents } from "../../db/events.repository.js";
-import {
-  botTexts,
-  keyboards,
-  links,
-  messages,
-} from "../../shared/constants.js";
+import { botTexts, keyboards, messages } from "../../shared/constants.js";
 import { sendMessageSettings } from "../../shared/utils.js";
 import { bot } from "../bot.js";
 
