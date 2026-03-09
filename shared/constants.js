@@ -1,13 +1,18 @@
 export const links = {
+  telegram: "https://t.me/battle_bot_test_bot",
   instagram: "https://instagram.com/",
   tiktok: "https://tiktok.com/",
-  terms: "https://example.com/terms",
-  fightersRequestForm: "https://forms.gle/application-form",
-  fightersTrainingForm: "https://forms.gle/training-form",
-  viewersTicketsForm: "https://forms.gle/tickets-form",
-  donationsLinkOne: "https://example.com/donate1",
-  donationsLinkTwo: "https://example.com/donate2",
-  donationsForm: "https://forms.gle/donations-form",
+  terms:
+    "https://docs.google.com/document/d/1o0G1Uh4dZu0OXwVGYVJG9SXxvnaqRLzOkBnS5h5KM4Y/edit?usp=sharing",
+  fightersRequestForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSfNnvZ6QITUELJhQomBjTqDM6QFapLEn15xSn09wQ9C8H6Ayw/viewform?usp=header",
+  fightersTrainingForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSfxtT6aBPiOiDwhBuYpKNWqJlAXfVgW00VFFi3-UA8db1xV0Q/viewform?usp=header",
+  viewersTicketsForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSc3JyFDHVchDrp2KdfjxzKRsv1VKfqqihn0Pa1ptt1Zxl7SUg/viewform?usp=header",
+  donationsLink: "https://yoomoney.ru/to/4100119489955948",
+  donationsForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLSdMMYL5-_B4-RqQsbwNE4_gjMmDXhXVfbMEnpDekanJrZNMfw/viewform?usp=header",
 };
 
 export const messages = {
@@ -41,7 +46,7 @@ export const botTexts = {
 
   premiumClub: `🔒 Закрытый клуб.\nИнформация о доступе и условиях:\n\n*♣️ КАК СТАТЬ ЧЛЕНОМ КЛУБА?*\nДля того чтобы стать членом клуба и получить клубную карту Вам необходимо посетить 4 бойцовских мероприятия в бойцовском клубе. В конце каждого мероприятия ведущий будет предлагать заполнить анкету на получение клубной карты (анкета заполняется единожды), в дальнейшем, тем кто заполнил анкету, после каждого мероприятия ведущий будет выдавать номерную карту мероприятия. Когда Вы получите 4 номерные карты, Вы сможете обменять их на клубную карту и официально станете членом клуба.\n\n*➕ ЧТО ДАЁТ ЧЛЕНСТВО В КЛУБЕ?*\nЧлены клуба получают уникальные бонусы, доступ к закрытым боям и мероприятиям.\n\n*😏 ЕСТЬ ЛИ ДРУГИЕ СПОСОБЫ ПОЛУЧЕНИЯ КЛУБНОЙ КАРТЫ?*\nДа, клубные карты могут быть выданы лично организаторами, людям, значительно поддержавшим проект, тем самым внесшим вклад в развития бойцовского клуба. Клубные карты также могут получить бойцы, которые смогут проявить себя, что откроет им доступ к определённым закрытым мероприятиям и дополнительным бонусам.`,
 
-  donation: `🎁 Вы можете поддержать проект или стать его спонсором!\n\nСсылки для донатов:\n[ДОНАТ Сбербанк](${links.donationsLinkOne})\n[ДОНАТ Альфабанк](${links.donationsLinkTwo})\n\n💰 Хотите стать спонсором проекта? Оставьте свою заявку по ссылке:\n[ФОРМА ДЛЯ СПОНСОРА](${links.donationsForm})`,
+  donation: `🎁 Вы можете поддержать проект или стать его спонсором!\n\nСсылки для донатов:\n[ДОНАТ Yoomoney](${links.donationsLink})\n\n💰 Хотите стать спонсором проекта? Оставьте свою заявку по ссылке:\n[ФОРМА ДЛЯ СПОНСОРА](${links.donationsForm})`,
 
   noTickets: `🎟 К сожалению, на ближайшие мероприятия билетов больше нет.`,
 
